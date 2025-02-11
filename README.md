@@ -1,65 +1,52 @@
 Yelp Business Analysis
 
-Objective
+Project Overview
 
-The objective of this analysis is to extract insights from the Yelp dataset to understand business performance across different organizations, states, and categories. The analysis focuses on ratings, weightage of categories, business distribution, and time-based trends to provide actionable insights into business performance on Yelp.
+This project analyzes Yelp business data, consisting of 1 million rows, to derive insights into business performance across different states, organizations, and categories. The dataset is used to identify trends in customer ratings, business weightage, and overall performance to help understand business success factors.
 
-Key Analysis and Findings
 
-1. Maximum Rating by Organization
+Objectives
 
-Identified the highest-rated organizations based on customer reviews and ratings.
 
-Helps in recognizing top-performing businesses in the dataset.
+The primary objectives of this analysis are:
 
-2. Best Pizza Hut in All States
+* Determine the Maximum Rating by Organization
 
-Determined the best-rated Pizza Hut outlet in each state.
+Identify the highest-rated organizations based on user ratings.
 
-Useful for customers seeking the best Pizza Hut experience in their location.
+* Find the Best Pizza Hut in All States
 
-3. Top 5 Organizations from the Top 5 States
+Analyze ratings for all Pizza Hut outlets across states to determine the top-performing locations.
 
-Ranked states based on overall business performance and selected the top 5 organizations from each.
+* Find the Top 5 Organizations from the Top 5 States
 
-Offers insights into which states have the best business environments.
+Rank states based on business performance and extract the top 5 organizations from these states.
 
-4. Best and Worst Performing Organizations
+* Identify the Best and Worst Performing Organizations
 
-Identified businesses with the highest and lowest ratings.
+Compare business ratings to determine the highest and lowest-performing organizations.
 
-Helps in recognizing high-quality businesses and those needing improvement.
+* Calculate the Weightage of Each Category
 
-5. Weightage of Each Category
+Assign weightage to each business category based on factors such as ratings, reviews, and customer engagement.
 
-Analyzed the distribution of business categories and their contribution to the dataset.
+* Find Organizations with Higher Weekend Ratings Compared to Weekdays
 
-Highlights which types of businesses are most prominent on Yelp.
+Identify businesses that experience better customer ratings on weekends as opposed to weekdays.
 
-6. Organizations with Higher Weekend Ratings
+* Analyze the Time When a Category Receives the Lowest Ratings
 
-Found businesses that receive higher ratings on weekends compared to weekdays.
+Determine specific time slots when businesses in a particular category receive lower customer ratings.
 
-Useful for understanding consumer behavior variations across different days.
+* Find the Top Organization in Each Category Based on Weightage and Overall Rating
 
-7. Exact Time When a Category Faces Low Ratings
+Rank businesses within each category considering both weightage and ratings.
 
-Identified time periods when specific categories experience lower ratings.
+* Determine Which State Has the Highest Number of Registered Businesses on Yelp
 
-Helps businesses understand customer dissatisfaction trends and improve service quality accordingly.
+Analyze the dataset to find the state with the largest number of businesses registered on Yelp.
 
-8. Top Organization in Each Category Based on Weightage and Overall Rating
-
-Ranked organizations in different categories using a weighted rating system.
-
-Useful for recognizing leaders in different business domains.
-
-9. State with the Most Businesses Registered on Yelp
-
-Determined which state has the highest number of registered businesses on Yelp.
-
-Provides insights into the geographic distribution of businesses.
 
 Conclusion
 
-This analysis provides deep insights into Yelp business performance, helping businesses understand their strengths and weaknesses. It enables consumers to make informed choices and offers a valuable perspective on the Yelp business ecosystem.
+This analysis provides valuable insights into business performance trends on Yelp. By understanding rating patterns, peak times, and state-wise distributions, businesses can strategize better to improve their customer service and market reach.
